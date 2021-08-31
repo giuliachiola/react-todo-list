@@ -51,13 +51,17 @@ function App() {
   }
 
   return (
-    <>
+    <div className="todos-container">
+      {/* items list */}
       <TodoList todos={todos} toggleTodo={toggleTodo}/>
+      {/* new todo item */}
       <input ref={todoNameRef} type="text" />
-      <button onClick={handleAddTodo}>Add Todo</button>
-      <button onClick={handleClearTodos}>Clear complete</button>
+      {/* buttons */}
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleAddTodo}>Add Todo</button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleClearTodos}>Clear complete</button>
+      {/* info */}
       <p>{todos.filter(todo => !todo.complete).length} left to do</p>
-    </>
+    </div>
   );
 }
 

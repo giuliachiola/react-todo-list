@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  CUSTOM STYLES
+*/
+
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#root {
+  display: flex;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.todos-container {
+  background: white;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid rgba(9,9,121,1);
+  border-radius: 8px;
+}
+
+button:disabled,
+button:disabled:hover {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+button ~ button {
+  margin-left: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
