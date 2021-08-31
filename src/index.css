@@ -12,17 +12,22 @@ body {
 
 #root {
   display: flex;
-  place-content: center;
+  place-items: center;
   min-height: 100vh;
 }
 
 .todos-container {
   background: white;
-  max-width: 50%;
+  width: 50%;
+  height: 50%;
   margin: 0 auto;
   padding: 30px;
   border: 1px solid rgba(9,9,121,1);
   border-radius: 8px;
+}
+
+.todos-container > * {
+  margin-bottom: 10px;
 }
 
 button:disabled,

@@ -8,7 +8,7 @@ Basic todo list application.
 | Deploy preview                                                             | \                                                                              |
 | Project typology                                                           | 📒  Step by step from tutorial [Learn React In 30 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified) |
 
-![project preview](docs/project-preview.png)
+![project preview](docs/project-preview.mp4)
 
 ## 🔥 Tech stack
 
