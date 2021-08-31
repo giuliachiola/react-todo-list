@@ -5,7 +5,7 @@ Basic todo list application.
 | \                                                                          | \                                                                              |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | Deploy status                                                              | [![Netlify Status](https://api.netlify.com/api/v1/badges/5c964a47-8323-4cbe-925b-67b4138c05dd/deploy-status)](https://app.netlify.com/sites/react-todo-list-gc/deploys)                                                                              |
-| Deploy preview                                                             | https://react-todo-list-gc.netlify.app/                                                                              |
+| Deploy preview                                                             | https://react-todo-list-giulia.netlify.app/                                                                              |
 | Project typology                                                           | 📒  Step by step from tutorial [Learn React In 30 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified) |
 
 
