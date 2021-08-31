@@ -13,6 +13,7 @@ Basic todo list application.
 https://user-images.githubusercontent.com/31881246/131497463-795472e3-990d-4ecf-bad7-815978381766.mp4
 
 <!--
+NOT USED, just for backup
 ![project preview](docs/project-preview.mp4)
 -->
 
