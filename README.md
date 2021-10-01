@@ -23,7 +23,7 @@ NOT USED, just for backup
 |:--------------|:-------------|
 | Framework     | React        |
 | Templating    | JSX          |
-| Styling       | SCSS + BEMIT |
+| Styling       | CSS |
 | Documentation | Markdown     |
 
 ## 🌊 Run development mode
